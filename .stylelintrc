@@ -1,0 +1,21 @@
+{
+  "extends": [
+    "stylelint-config-recommended-vue/scss"
+  ],
+  "plugins": [
+    "stylelint-no-unsupported-browser-features",
+    "stylelint-order",
+    "stylelint-selector-tag-no-without-class",
+    "stylelint-z-index-value-constraint"
+  ],
+  "rules": {
+    "order/properties-alphabetical-order": true,
+    "plugin/no-unsupported-browser-features": true,
+    "plugin/selector-tag-no-without-class": ["a", "article", "aside", "b", "body", "button", "div", "footer", "h1", "h2", "h3",
+      "header", "img", "input", "label", "main", "nav", "ol", "p", "section", "select", "span", "svg", "table", "ul"],
+    "plugin/z-index-value-constraint": {
+      "min": 1,
+      "max": 10
+    }
+  }
+}

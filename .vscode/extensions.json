@@ -1,0 +1,14 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "eamodio.gitlens",
+    "EditorConfig.EditorConfig",
+    "humao.rest-client",
+    "medo64.render-crlf",
+    "naumovs.color-highlight",
+    "sdras.vue-vscode-snippets",
+    "stylelint.vscode-stylelint",
+    "Vue.volar",
+    "wix.vscode-import-cost",
+  ]
+}
